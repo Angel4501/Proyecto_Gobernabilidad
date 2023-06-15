@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #3e51a3, #23b0e6);
+}
+
+.App {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.textAreaResponderPregunta {
+    resize: none;
+    background-color: #ececec;
+    color: #131313;
+    padding: 1em;
+    border-radius: 10px;
+    /* border: 2px solid transparent; */
+    width: 50%;
+    height: 200px;
+}
+
+.submitButton {
+    background-color: #d8cb1c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .submitButton:hover{
+    background-color: #cfc30f;
+
+  }
