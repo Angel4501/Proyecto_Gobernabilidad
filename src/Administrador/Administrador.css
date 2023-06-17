@@ -22,10 +22,14 @@ textarea {
     color: #131313;
     padding: 1em;
     border-radius: 10px;
-    /* border: 2px solid transparent; */
     width: 50%;
     height: 200px;
 }
+
+.textAreaResponderPregunta:focus{
+    outline: 2px solid rgb(20, 67, 167);
+}
+
 
 .submitButton {
     background-color: #d8cb1c;
