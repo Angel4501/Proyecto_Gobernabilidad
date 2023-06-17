@@ -4,46 +4,64 @@ body {
     background: linear-gradient(to right, #3e51a3, #23b0e6);
 }
 
-.App {
-    padding: 20px;
+.titulo_h1 {
+
     color: white;
-    text-align: center;
 }
 
-textarea {
-    width: 300px;
-    height: 150px;
-    margin-bottom: 10px;
+.divPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 1000px;
+    margin-bottom: 25%;
 }
 
 .textAreaResponderPregunta {
+    margin-right: 300px;
     resize: none;
     background-color: #ececec;
     color: #131313;
     padding: 1em;
     border-radius: 10px;
-    width: 50%;
-    height: 200px;
+    width: 95%;
+    height: 200%;
+    border: 1px solid;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 25px;
+
 }
 
-.textAreaResponderPregunta:focus{
-    outline: 2px solid rgb(20, 67, 167);
+.textAreaResponderPregunta:focus {
+    outline: 1px solid rgb(20, 67, 167);
 }
 
 
 .submitButton {
     background-color: #d8cb1c;
     color: white;
-    border: none;
+    border: black 1px;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     color: #fff;
     font-weight: bold;
-  }
+    margin-top: 5%;
+}
 
-  .submitButton:hover{
+.submitButton:hover {
     background-color: #cfc30f;
 
-  }
+}
