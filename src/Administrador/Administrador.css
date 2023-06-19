@@ -5,7 +5,7 @@ body {
 }
 
 .titulo_h1 {
-
+    margin-top: 5%;
     color: white;
 }
 
@@ -36,11 +36,26 @@ body {
     padding: 1em;
     border-radius: 10px;
     width: 95%;
-    height: 200%;
+    height: 100%;
     border: 1px solid;
 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 25px;
 
+}
+
+.textAreaSubject {
+    margin-right: 300px;
+    resize: none;
+    outline: none;
+    background-color: #ececec;
+    color: #131313;
+    padding: 1em;
+    border-radius: 10px;
+    width: 95%;
+    height: 10%;
+    border: 1px solid;
+    margin-bottom: 1%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 25px;
 }
 
 .textAreaResponderPregunta:focus {
