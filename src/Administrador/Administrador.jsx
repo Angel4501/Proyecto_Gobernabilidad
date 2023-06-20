@@ -50,10 +50,8 @@ const Administrador = () => {
       });
 
       console.log(response.data); // Response from Redmine API
-      window.alert('Issue created successfully');
     } catch (error) {
       console.error(error);
-      window.alert('Error creating issue');
     }
   };
 
